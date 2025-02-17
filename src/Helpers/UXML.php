@@ -56,7 +56,7 @@ class UXML
 
         // we need to make sure the original xml have 4 indentation in its lines
         if (!str_contains($xmlString, '    <cbc:ProfileID>')) {
-            $xmlString = preg_replace('/^[ ]+(?=<)/m', '$0$0', $xmlString);
+            $xmlString = preg_replace('/^[ ]+(?=<)/m', '$0$0$0$0', $xmlString);
         }
 
         if ($doc->loadXML($xmlString) === false) {
@@ -348,7 +348,6 @@ class UXML
 
         $issueDate = $this->get("cbc:IssueDate")->asText();
         $issueTime = $this->get("cbc:IssueTime")->asText();
-        $issueTime = stripos($issueTime, 'Z') === false ? $issueTime . 'Z' : $issueTime;
 
         $qrArray = [
             new Seller($this->get("cac:AccountingSupplierParty/cac:Party/cac:PartyLegalEntity/cbc:RegistrationName")->asText()), // Seller׳s name

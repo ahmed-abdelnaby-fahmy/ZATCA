@@ -1,6 +1,6 @@
 <?php
 
-namespace Salla\ZATCA\Exception;
+namespace ZATCA\Tools\Exception;
 
 class CSRValidationException extends \Exception
 {

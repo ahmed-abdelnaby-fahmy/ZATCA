@@ -1,9 +1,9 @@
 <?php
 
-namespace Salla\ZATCA;
+namespace ZATCA\Tools;
 
-use Salla\ZATCA\Models\CSR;
-use Salla\ZATCA\Models\CSRRequest;
+use ZATCA\Tools\Models\CSR;
+use ZATCA\Tools\Models\CSRRequest;
 
 class GenerateCSR
 {

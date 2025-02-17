@@ -1,8 +1,8 @@
 <?php
 
-namespace Salla\ZATCA\Tags;
+namespace ZATCA\Tools\Tags;
 
-use Salla\ZATCA\Tag;
+use ZATCA\Tools\Tag;
 
 class Seller extends Tag
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Salla\ZATCA\Models;
+namespace ZATCA\Tools\Models;
 
-use Salla\ZATCA\Exception\CSRValidationException;
+use ZATCA\Tools\Exception\CSRValidationException;
 
 class CSRRequest
 {

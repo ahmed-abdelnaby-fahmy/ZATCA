@@ -1,10 +1,10 @@
 <?php
 
-namespace Salla\ZATCA\Helpers;
+namespace ZATCA\Tools\Helpers;
 
 /**
  * Class UblExtension
- * @package Salla\ZATCA\Helpers
+ * @package ZATCA\Tools\Helpers
  */
 class UblExtension
 {
@@ -37,7 +37,7 @@ class UblExtension
 
         $signedProprietiesXml = $this->buildSignedProperties($signingTime);
 
-        $xml = \Salla\ZATCA\Helpers\UXML::newInstance("ext:UBLExtension");
+        $xml = \ZATCA\Tools\Helpers\UXML::newInstance("ext:UBLExtension");
         $xml->add('ext:ExtensionURI', 'urn:oasis:names:specification:ubl:dsig:enveloped:xades');
         $content = $xml->add('ext:ExtensionContent');
         $singInformation = $content->add('sig:UBLDocumentSignatures', null, [

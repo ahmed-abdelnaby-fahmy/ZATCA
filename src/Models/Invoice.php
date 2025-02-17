@@ -1,8 +1,8 @@
 <?php
 
-namespace Salla\ZATCA\Models;
+namespace ZATCA\Tools\Models;
 
-use Salla\ZATCA\Helpers\Certificate;
+use ZATCA\Tools\Helpers\Certificate;
 
 class Invoice
 {
@@ -14,7 +14,7 @@ class Invoice
      */
     private $qrCode;
     /**
-     * @var \Salla\ZATCA\Helpers\Certificate
+     * @var \ZATCA\Tools\Helpers\Certificate
      */
     private $certificate;
 

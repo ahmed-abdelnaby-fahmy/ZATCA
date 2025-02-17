@@ -1,6 +1,6 @@
 <?php
 
-namespace Salla\ZATCA;
+namespace ZATCA\Tools;
 
 use chillerlan\QRCode\QRCode;
 use InvalidArgumentException;

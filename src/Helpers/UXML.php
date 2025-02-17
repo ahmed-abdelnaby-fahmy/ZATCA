@@ -1,21 +1,21 @@
 <?php
 
-namespace Salla\ZATCA\Helpers;
+namespace ZATCA\Tools\Helpers;
 
 use DOMDocument;
 use DOMElement;
 use DOMException;
 use DOMXPath;
 use InvalidArgumentException;
-use Salla\ZATCA\Tags\CertificateSignature;
-use Salla\ZATCA\Tags\InvoiceDate;
-use Salla\ZATCA\Tags\InvoiceDigitalSignature;
-use Salla\ZATCA\Tags\InvoiceHash;
-use Salla\ZATCA\Tags\InvoiceTaxAmount;
-use Salla\ZATCA\Tags\InvoiceTotalAmount;
-use Salla\ZATCA\Tags\PublicKey;
-use Salla\ZATCA\Tags\Seller;
-use Salla\ZATCA\Tags\TaxNumber;
+use ZATCA\Tools\Tags\CertificateSignature;
+use ZATCA\Tools\Tags\InvoiceDate;
+use ZATCA\Tools\Tags\InvoiceDigitalSignature;
+use ZATCA\Tools\Tags\InvoiceHash;
+use ZATCA\Tools\Tags\InvoiceTaxAmount;
+use ZATCA\Tools\Tags\InvoiceTotalAmount;
+use ZATCA\Tools\Tags\PublicKey;
+use ZATCA\Tools\Tags\Seller;
+use ZATCA\Tools\Tags\TaxNumber;
 use WeakMap;
 
 use function class_exists;

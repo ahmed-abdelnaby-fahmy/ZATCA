@@ -1,13 +1,13 @@
 <?php
 
-namespace Salla\ZATCA\Helpers;
+namespace ZATCA\Tools\Helpers;
 
 use phpseclib3\Crypt\Common\PrivateKey;
 use phpseclib3\Crypt\EC;
 use phpseclib3\File\X509;
 
 /**
- * @package Salla\ZATCA\Helpers
+ * @package ZATCA\Tools\Helpers
  * @mixin X509
  */
 class Certificate

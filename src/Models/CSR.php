@@ -1,6 +1,6 @@
 <?php
 
-namespace Salla\ZATCA\Models;
+namespace ZATCA\Tools\Models;
 
 class CSR
 {

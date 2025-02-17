@@ -1,13 +1,13 @@
 <?php
 
 
-namespace Salla\ZATCA\Models;
+namespace ZATCA\Tools\Models;
 
-use Salla\ZATCA\GenerateQrCode;
-use Salla\ZATCA\Helpers\Certificate;
-use Salla\ZATCA\Helpers\UblExtension;
-use Salla\ZATCA\Helpers\UXML;
-use Salla\ZATCA\Tag;
+use ZATCA\Tools\GenerateQrCode;
+use ZATCA\Tools\Helpers\Certificate;
+use ZATCA\Tools\Helpers\UblExtension;
+use ZATCA\Tools\Helpers\UXML;
+use ZATCA\Tools\Tag;
 
 class InvoiceSign
 {
@@ -17,7 +17,7 @@ class InvoiceSign
     protected $xmlInvoice;
 
     /**
-     * @var \Salla\ZATCA\Helpers\Certificate
+     * @var \ZATCA\Tools\Helpers\Certificate
      */
     protected $certificate;
 
@@ -79,7 +79,7 @@ class InvoiceSign
             ], $this->xmlDom->asXML());
 
         // after replace we want to remove any blank line from invoice.
-        return new \Salla\ZATCA\Models\Invoice(
+        return new \ZATCA\Tools\Models\Invoice(
             preg_replace('/^[ \t]*[\r\n]+/m', '', $signedInvoice),
             $this->invoiceHash,
             $QRCode,

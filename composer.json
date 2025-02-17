@@ -1,5 +1,5 @@
 {
-    "name": "salla/zatca",
+    "name": "ahmedabdelnaby/zatca-tools",
     "description": "A helper to generate the QR code and signed it for ZATCA e-invoicing",
     "type": "library",
     "keywords": [
@@ -8,18 +8,18 @@
         "salla",
         "qr-code"
     ],
-    "homepage": "https://github.com/salla/zatca",
+    "homepage": "https://www.linkedin.com/in/ahmedabdelnaby1/",
     "license": "MIT",
     "authors": [
         {
-            "name": "Salla Team",
-            "email": "support@salla.dev",
-            "homepage": "https://salla.dev"
+            "name": "Ahmed abdelnaby",
+            "email": "ahmedabdelnabyfahmy1@gmail.com",
+            "homepage": "https://www.linkedin.com/in/ahmedabdelnaby1/"
         }
     ],
     "support": {
-        "issues": "https://github.com/salla/zatca/issues",
-        "source": "https://github.com/salla/zatca"
+        "issues": "https://github.com/ahmed-abdelnaby-fahmy/ZATCA/issues",
+        "source": "https://github.com/ahmed-abdelnaby-fahmy/ZATCA.git"
     },
     "minimum-stability": "stable",
     "require": {
@@ -36,12 +36,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Salla\\ZATCA\\": "src/"
+            "ZATCA\\Tools\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Salla\\ZATCA\\Test\\": "tests/"
+            "ZATCA\\Tools\\Test\\": "tests/"
         }
     },
     "scripts": {

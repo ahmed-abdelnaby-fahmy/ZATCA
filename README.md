@@ -1,4 +1,3 @@
-# 🚀 ZATCA Tools - QR Code & Invoice Signing
 <p align="center">
   <h1 align="center">🧾 ZATCA (Fatoora) QR-Code & Invoice Signing</h1>
   <p align="center">
@@ -24,8 +23,6 @@ Install the package via Composer:
 ```bash
 composer require ahmedabdelnaby/zatca-tools
 ```
-
-<p align="right">(<a href="#top">⬆ Back to top</a>)</p>
 
 ---
 
@@ -147,7 +144,6 @@ Now, use it in an `<img>` tag:
 <img src="<?php echo $displayQRCodeAsBase64; ?>" alt="Invoice QR Code" />
 ```
 
-<p align="right">(<a href="#top">⬆ Back to top</a>)</p>
 
 ---
 

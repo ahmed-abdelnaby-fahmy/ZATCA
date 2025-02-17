@@ -36,7 +36,10 @@ class Invoice
     {
         return $this->invoice;
     }
-
+    public function getEncodedSignedXml()
+    {
+        return base64_encode($this->invoice);
+    }
     public function getQRCode(): string
     {
         return $this->qrCode;
